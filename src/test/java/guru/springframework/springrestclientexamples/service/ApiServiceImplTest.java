@@ -1,6 +1,7 @@
 package guru.springframework.springrestclientexamples.service;
 
 import guru.springframework.api.domain.User;
+import guru.springframework.springrestclientexamples.services.ApiService;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
