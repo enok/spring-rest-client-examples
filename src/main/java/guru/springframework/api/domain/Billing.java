@@ -1,4 +1,3 @@
-
 package guru.springframework.api.domain;
 
 import java.io.Serializable;
@@ -10,7 +9,7 @@ public class Billing implements Serializable
 
     private Card card;
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
-    private final static long serialVersionUID = 1820391130487031387L;
+    private final static long serialVersionUID = 6577338081290507077L;
 
     public Card getCard() {
         return card;

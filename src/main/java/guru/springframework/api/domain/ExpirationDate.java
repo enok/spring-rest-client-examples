@@ -1,4 +1,3 @@
-
 package guru.springframework.api.domain;
 
 import java.io.Serializable;
@@ -12,7 +11,7 @@ public class ExpirationDate implements Serializable
     private Integer timezoneType;
     private String timezone;
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
-    private final static long serialVersionUID = -8655746418390288940L;
+    private final static long serialVersionUID = 4661228813349752965L;
 
     public String getDate() {
         return date;

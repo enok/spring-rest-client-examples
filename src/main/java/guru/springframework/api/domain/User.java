@@ -1,4 +1,3 @@
-
 package guru.springframework.api.domain;
 
 import java.io.Serializable;
@@ -19,7 +18,8 @@ public class User implements Serializable
     private String language;
     private String currency;
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
-    private final static long serialVersionUID = 3777722787142692688L;
+
+    private final static long serialVersionUID = 270727596527329664L;
 
     public String getGender() {
         return gender;

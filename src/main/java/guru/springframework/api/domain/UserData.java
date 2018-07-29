@@ -1,12 +1,13 @@
-
 package guru.springframework.api.domain;
 
-import java.io.Serializable;
 import java.util.List;
 
-public class UserData implements Serializable {
+/**
+ * Created by jt on 9/21/17.
+ */
+public class UserData {
 
-    private List<User> data = null;
+    List<User> data;
 
     public List<User> getData() {
         return data;
@@ -15,5 +16,4 @@ public class UserData implements Serializable {
     public void setData(List<User> data) {
         this.data = data;
     }
-
 }

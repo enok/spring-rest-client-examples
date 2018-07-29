@@ -1,4 +1,3 @@
-
 package guru.springframework.api.domain;
 
 import java.io.Serializable;
@@ -14,7 +13,7 @@ public class Card implements Serializable
     private String iban;
     private String swift;
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
-    private final static long serialVersionUID = -8998228898525665730L;
+    private final static long serialVersionUID = 6203456183354582742L;
 
     public String getType() {
         return type;

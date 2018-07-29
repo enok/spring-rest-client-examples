@@ -1,4 +1,3 @@
-
 package guru.springframework.api.domain;
 
 import java.io.Serializable;
@@ -11,7 +10,7 @@ public class Job implements Serializable
     private String title;
     private String company;
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
-    private final static long serialVersionUID = 7493711901163690072L;
+    private final static long serialVersionUID = -4985150429002262656L;
 
     public String getTitle() {
         return title;
